@@ -1,0 +1,38 @@
+
+.logo a {margin-top: 8px !important;}
+.title-divider .caps {position: relative; background-color: transparent;}
+
+blockquote p {margin-bottom: 15px; font-size: 1.1em;}
+.uppercase { text-transform: uppercase; }
+
+.readingColumn p {
+    line-height: 1.7em;
+    font-family: serif;
+    font-size: 1.5em;
+    color: #555;
+    text-indent: 30px;
+}
+
+
+.readingColumn h1, .readingColumn h2, .readingColumn h3, .readingColumn h4, .readingColumn h5, .readingColumn h6 {
+  text-align: center;
+}
+
+.readingColumn h2 {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  background:url(/static/img/prose_separator.png) no-repeat bottom center;
+}
+
+.readingColumn hr {
+  margin: 40px 0;
+  background:url(/static/img/prose_separator.png) no-repeat top center;
+  height:14px;
+  border:none !important;  
+}
+hr.fancy {
+  margin: 40px 0;
+  background:url(/static/img/prose_separator.png) no-repeat top center;
+  height:14px;
+  border:none !important;  
+}
