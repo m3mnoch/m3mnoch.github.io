@@ -144,7 +144,7 @@ overlay_gallery: false, social_tools: false,  deeplinking: false
 ***************************************************/
 		$.getJSON('http://steelanvilstudios.com/authored/rainnstatus', function(data) {
 			var statusHolder = $("#statusHolder");
-			var colorText = 'error';
+			var colorText = 'danger';
 
 			$.each(data, function(index, chapterStatus) {
 
@@ -161,7 +161,7 @@ overlay_gallery: false, social_tools: false,  deeplinking: false
 					colorText = 'warning';
 
 				} else {
-					colorText = 'error';
+					colorText = 'danger';
 				}
 
 				chapterDisplay.append('<div class="progress progress-striped"><div class="bar bar-' + colorText + '" style="width: ' + chapterStatus.score + '%;"></div></div>');
